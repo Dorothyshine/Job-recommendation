@@ -43,7 +43,7 @@ public class Login extends HttpServlet {
 		}
 		RpcHelper.writeJsonObject(response, obj);
 
-	}
+	}//for verification
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
