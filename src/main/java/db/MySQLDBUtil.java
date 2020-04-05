@@ -1,11 +1,11 @@
 package db;
 
 public class MySQLDBUtil {
-	private static final String INSTANCE = "db-instance.cbicdq52ivgv.us-east-2.rds.amazonaws.com";
+	private static final String INSTANCE = "YOUR_INSTANCE";
 	private static final String PORT_NUM = "3306";
-	public static final String DB_NAME = "jupiter";
-	private static final String USERNAME = "admin";
-	private static final String PASSWORD = "fairyland";
+	public static final String DB_NAME = "YOUR_DB_NAME";
+	private static final String USERNAME = "YOUR_USERNAME";
+	private static final String PASSWORD = "YOUR_PASSWORD";
 	public static final String URL = "jdbc:mysql://"
 			+ INSTANCE + ":" + PORT_NUM + "/" + DB_NAME
 			+ "?user=" + USERNAME + "&password=" + PASSWORD

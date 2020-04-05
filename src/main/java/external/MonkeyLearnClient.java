@@ -12,7 +12,7 @@ import com.monkeylearn.MonkeyLearnResponse;
 import com.monkeylearn.MonkeyLearnException;
 
 public class MonkeyLearnClient {
-	private static final String API_KEY = "f232421bacaffb32c07f53e505370e30ac65c7fe";// make sure change it to your api key.
+	private static final String API_KEY = "YOUR_KEY";// make sure change it to your api key.
 
 	public static void main( String[] args ) throws MonkeyLearnException {
         String[] textList = {"Elon Musk has shared a photo of the spacesuit designed by SpaceX. This is the second image shared of the new design and the first to feature the spacesuit’s full-body look."};
